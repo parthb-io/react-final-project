@@ -1,0 +1,81 @@
+.section-circle{
+    height: 13px;
+    width: 13px;
+    background-color: #ffffff;
+    border: 2.5px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    /* float: right; */
+    right: 0;
+    margin: 0% 18% 0% 0%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+#to-do-circle{
+    height: 17px;
+    width: 17px;
+    background-color: #008cff;
+    border: 0px solid #006eff;
+    opacity: 0.5;
+}
+.task-tablet-wrapper{
+    padding: 3% 0% 5% 0%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #f3f3f3;
+    height: 100%;
+    width: 100%;
+}
+.task-input{
+    outline: none;
+    padding: 6% 20% 5.5% 4%;
+    /* margin: 3% 5% 0% 5%; */
+    display: flex;
+    position: relative;
+    background: #ffffff86;
+    border: 0px solid #00000050;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #00000010;
+    /* left: 0;
+    right: 0; */
+    color: #000000;
+    text-decoration: none;
+    /* font-family: Regular Font; */
+    font-family: Regular Font Helvetica !important;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    width: 66.8%;
+}
+
+.assignment-buttons{
+    /* padding: 3% 3% 2% 3%; */
+    margin: 0% 0% 0% 0%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.assignment-button{
+    outline: none;
+    padding: 2% 2% 2% 2%;
+    margin: 1.5% 0% 0% 1.5%;
+    display: flex;
+    position: relative;
+    background: #ffffff;
+    border: 0px solid #00000050;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px #00000010;
+    /* left: 0;
+    right: 0; */
+    color: #000000ad;
+    text-decoration: none;
+    /* font-family: Regular Font; */
+    font-family: Regular Font Helvetica !important;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    width: fit-content;
+    opacity: 0.7;
+}
